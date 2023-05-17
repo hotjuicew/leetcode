@@ -13,26 +13,25 @@ hide:
 
 ---
 
-**GitHub Pages**: <https://xjasonlyu.github.io/leetcode>
 
-**Source Code**: <https://github.com/xjasonlyu/leetcode>
+**Source Code**: <https://github.com/hotjuicew/leetcode>
 
 ---
 
-<!-- ![LeetCode Stats](https://leetcard.jacoblin.cool/xjasonlyu?theme=light&font=Play&ext=heatmap) -->
+<!-- ![LeetCode Stats](https://leetcard.jacoblin.cool/hotjuicew?site=cntheme=light&font=Play&ext=heatmap) -->
 
 <img
   id="stats"
   align="right"
-  src="https://leetcard.jacoblin.cool/xjasonlyu?theme=light&font=Play&ext=heatmap"
+  src="https://leetcard.jacoblin.cool//hotjuicew?site=cn&theme=light&font=Play&ext=heatmap"
   alt="LeetCode Stats"
   width="400px">
 
 <script>
   var stats = document.getElementById("stats")
 
-  let light = "https://leetcard.jacoblin.cool/xjasonlyu?theme=light&font=Play&ext=heatmap";
-  let dark = "https://leetcard.jacoblin.cool/xjasonlyu?theme=nord&font=Play&ext=heatmap";
+  let light = "https://leetcard.jacoblin.cool/hotjuicew?site=cn&theme=light&font=Play&ext=heatmap";
+  let dark = "https://leetcard.jacoblin.cool/hotjuicew?site=cn&theme=nord&font=Play&ext=heatmap";
 
   var palette = __md_get("__palette")
   if (palette && typeof palette.color === "object") {
@@ -82,4 +81,4 @@ hide:
 
 ---
 
-_This site is powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and [GitHub Pages](https://pages.github.com/)._
+_This site is powered by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) ._

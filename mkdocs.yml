@@ -1,5 +1,5 @@
 site_name: LeetCode
-site_author: Jason Lyu
+site_author: juice
 site_description: LeetCode Solutions
 
 # repo_name: leetcode
@@ -10,10 +10,10 @@ site_description: LeetCode Solutions
 copyright: >-
   Copyright &copy;
   <script>document.write(new Date().getFullYear())</script>
-  Jason Lyu
+
 
 theme:
-  language: en
+  language: zh
   name: material
   custom_dir: overrides
   palette:
@@ -59,15 +59,12 @@ extra:
     property: !ENV CLOUDFLARE_ANALYTICS_KEY
   social:
     - icon: fontawesome/solid/globe
-      link: https://12x.me
+      link: https://add1.dev
     - icon: fontawesome/brands/github
-      link: https://github.com/xjasonlyu
+      link: https://github.com/hotjuicew
     - icon: fontawesome/brands/leetcode
-      link: https://leetcode.com/xjasonlyu
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/xjasonlyu
+      link: https://leetcode.cn/u/hotjuicew/
+
 
 markdown_extensions:
   - abbr
@@ -84,9 +81,7 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+
   - pymdownx.highlight:
       anchor_linenums: true
       linenums: true
@@ -104,4 +99,9 @@ markdown_extensions:
 nav:
   - Dashboard: index.md
   - Topic Tags: topic-tags.md
-  #$solutions_list
+  - Solutions:
+    - 1. Two Sum: 1.two-sum.md
+    - 2. Add Two Numbers: 2.add-two-numbers.md
+    - 9. Palindrome Number: 9.palindrome-number.md
+    - 14. Longest Common Prefix: 14.longest-common-prefix.md
+    - 165. Compare Version Numbers: 165.compare-version-numbers.md
