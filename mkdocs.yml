@@ -101,4 +101,6 @@ nav:
   - Topic Tags: topic-tags.md
   - Solutions:
     - 1. Two Sum: 1.two-sum.md
-
+    - 27. Remove Element: 27.移除元素.md
+    - 704. Binary Search: 704.二分查找.md
+    - 977. Squares of a Sorted Array: 977.有序数组的平方.md
