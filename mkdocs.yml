@@ -99,5 +99,4 @@ markdown_extensions:
 nav:
   - Dashboard: index.md
   - Topic Tags: topic-tags.md
-  - Solutions:
-
+  #$solutions_list
