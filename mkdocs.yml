@@ -99,4 +99,9 @@ markdown_extensions:
 nav:
   - Dashboard: index.md
   - Topic Tags: topic-tags.md
-  #$solutions_list
+  - Solutions:
+    - 27. Remove Element: 27.移除元素.md
+    - 59. Spiral Matrix II: 59.螺旋矩阵-ii.md
+    - 209. Minimum Size Subarray Sum: 209.长度最小的子数组.md
+    - 704. Binary Search: 704.二分查找.md
+    - 977. Squares of a Sorted Array: 977.有序数组的平方.md
