@@ -11,17 +11,18 @@
  * @return {number}
  */
 var removeElement = function (nums, val) {
-    //fast:寻找新数组需要的元素
-    //slow：新数组元素的下标
-    let f=s=0;
-    for(let i=0;i<nums.length;i++){
-        if(nums[f]!==val){
-            nums[s]=nums[f]
-            f++
-            s++
-        }else f++    
+    let fast=slow=0
+    //fast 寻找新数组所需要的元素
+    //flow 新数组的下标、、
+    while(fast<nums.length){
+        if(nums[fast]!==val){
+            nums[slow]=nums[fast]
+            slow++
+            fast++
+        }else fast++
     }
-    return s
+    return slow
+
 };
 // @lc code=end
 
