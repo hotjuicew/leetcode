@@ -16,6 +16,7 @@ var search = function(nums, target) {
     let left=0,right=nums.length
     while(left<right){//注意这里是<而不是<=,因为这是一个左闭右开的区间，所以left和right不可能相等
         let mid=left+Math.floor((right-left)/2)
+         //也可以Math.floor((left + right) / 2)
         console.log(mid);
         if (nums[mid]===target) return mid
         else{
