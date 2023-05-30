@@ -26,5 +26,20 @@ var sortedSquares = function(nums) {
     }
     return res
 };
+// 第二次
+// var sortedSquares = function(nums) {
+//     let left=0,right=nums.length-1
+//     let res=[]
+//   while(left<=right){
+//     if(nums[left]*nums[left]>nums[right]*nums[right]){
+//         res.unshift(nums[left]*nums[left])
+//         left++
+//     }else{
+//         res.unshift(nums[right]*nums[right])
+//         right--
+//     }
+//   }
+//   return res
+// };
 // @lc code=end
 
