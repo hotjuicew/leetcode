@@ -1,5 +1,5 @@
 import os
-import requests
+import json
 from datetime import datetime
 from jinja2 import Template
 from mkdocs_git_revision_date_localized_plugin.util import Util
@@ -7,9 +7,8 @@ from mkdocs_git_revision_date_localized_plugin.util import Util
 
 def main():
 
-    with requests.get('https://raw.githubusercontent.com/bunnyxt/lcid/main/problems_all.json') as r:
-        r.raise_for_status()
-        problems = r.json()
+    with open('problems_all.json') as r:
+        problems = json.loads(r.read())
 
     with open('template.md', encoding='utf-8') as f:
         template = Template(f.read())
